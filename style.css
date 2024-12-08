@@ -351,6 +351,8 @@ body {
     cursor: pointer;
     border-radius: 5px;
     text-align: center;
+    z-index: 3;
+ 
 }
 
 .but:hover {
@@ -426,7 +428,7 @@ body {
     border: none;
     padding: 15px 25px; 
     cursor: pointer;
-    z-index: 2;
+    z-index: 10;
     font-size: 20px; 
     border-radius: 10px;
 }
@@ -435,13 +437,11 @@ body {
     background: rgba(68, 68, 68, 0.7);
 }
 
-.swipe-btn.left {
+.swipe-btn.left, .swipe-btn.right {
     margin-right: auto; 
+  
 }
 
-.swipe-btn.right {
-    margin-left: auto; 
-}
 
 .footer {
     background-color: #1c1c1c;
